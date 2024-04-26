@@ -32,7 +32,7 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden; /* arredondamento da borda */
+    overflow: hidden;
 
     background-color: white;
     width: 330px;
@@ -86,9 +86,9 @@ div.campo > span {
     font-size: 1.7em;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     line-height: 35px;
     margin-left: 5px;
+    transform: translateY(-50%);
 }
 
 div.campo > input {
