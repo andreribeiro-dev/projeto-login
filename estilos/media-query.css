@@ -34,6 +34,7 @@
 
     section#login {
         width: 900px;
+        height: 63vh;
     }
 
     section#login > div#imagem {
@@ -45,6 +46,8 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
+        margin-top: 40px;
+        padding: 23px;
     }
 
     div#formulario > h1 {
@@ -52,6 +55,19 @@
     }
 
     div#formulario > p {
+        font-size: .9em;
+    }
+
+    div.campo > input {
+        font-size: .9em;
+    }
+
+    form > input.entrar[type=submit] {
         font-size: 1em;
     }
+
+    form > input.esqueci-a-senha[type=submit] {
+        font-size: 1em;
+    }
+
 }
